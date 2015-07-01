@@ -1,0 +1,55 @@
+
+# The interval signal block
+
+#IntervalSignal  File  http://205.164.62.13:7700
+
+#Programas
+
+AEsteLadoDeLaTumba              	File            file:///home/contrabanda/continuidad/audios/aesteladodelatumba/aesteladodelatumba.ogg
+AsambleaDeMajaras               	File            file:///home/contrabanda/continuidad/audios/asambleademajaras/asambleademajaras.ogg
+BonaTardaNoctambuls             	File            file:///home/contrabanda/continuidad/audios/bonatardanoctambuls/bonatardanoctambuls.ogg
+ClubSecreto                     	File            file:///home/contrabanda/continuidad/audios/clubsecreto/clubsecreto.ogg
+DistritoApache                  	File            file:///home/contrabanda/continuidad/audios/distritoapache/distritoapache.ogg
+ElAleteoDesequilibrado          	File            file:///home/contrabanda/continuidad/audios/elaleteodesequilibrado/elaleteodesequilibrado.ogg
+ElPesoDeLaLuz                   	File            file:///home/contrabanda/continuidad/audios/elpesodelaluz/elpesodelaluz.ogg
+Fusionistas                     	File            file:///home/contrabanda/continuidad/audios/fusionistas/fusionistas.ogg
+LaInmensaMinoria                	File            file:///home/contrabanda/continuidad/audios/lainmensaminoria/lainmensaminoria.ogg
+lasopadepiedra				File            file:///srv/www/docroot/continuity/files/lasopadepiedra/lasopadepiedra.ogg
+LetalAge                        	File            file:///home/contrabanda/continuidad/audios/letalage/letalage.ogg
+MusiquesDelSegleXX              	File            file:///home/contrabanda/continuidad/audios/musiquesdelseglexx/musiquesdelseglexx.ogg
+Niemandsland                    	File            file:///home/contrabanda/continuidad/audios/niemandsland/niemandsland.ogg
+Nikosia                         	File            file:///home/contrabanda/continuidad/audios/nikosia/nikosia.ogg
+NomadaSintopico                 	File            file:///home/contrabanda/continuidad/audios/nomadasintopico/nomadassintopico.ogg
+RadioRosko                      	File            file:///home/contrabanda/continuidad/audios/radiorosko/radiorosko.ogg
+Radiograma                      	File            file:///home/contrabanda/continuidad/audios/radiograma/radiograma.ogg
+SinAudiencia                    	File            file:///home/contrabanda/continuidad/audios/sinaudiencia/sinaudiencia.ogg
+SkarlataOjara                   	File            file:///home/contrabanda/continuidad/audios/skarlataojara/skarlataojara.ogg
+UnMonDeMusiques                 	File            file:///home/contrabanda/continuidad/audios/unmondemusiques/unmondemusiques.ogg
+Zibaldone                       	File            file:///home/contrabanda/continuidad/audios/zibaldone/zibaldone.ogg
+QuePasaEnElMundo           	        File            file:///home/contrabanda/continuidad/audios/quepasaenelmundo/quepasaenelmundo.ogg
+
+
+#Programas Especiales
+Z01-GrabacionEspecial			File		file:///home/contrabanda/continuidad/audios/z01-grabacionespecial/z01-grabacionespecial.ogg
+Z02-GrabacionEspecial                   File            file:///home/contrabanda/continuidad/audios/z02-grabacionespecial/z02-grabacionespecial.ogg
+Z03-GrabacionEspecial                   File            file:///home/contrabanda/continuidad/audios/z01-grabacionespecial/z03-grabacionespecial.ogg
+Z04-GrabacionEspecial                   File            file:///home/contrabanda/continuidad/audios/z01-grabacionespecial/z04-grabacionespecial.ogg
+Z05-GrabacionEspecial                   File            file:///home/contrabanda/continuidad/audios/z01-grabacionespecial/z05-grabacionespecial.ogg
+
+
+#Podcasts
+Podcast-LaLinternaDeDiogenes		File		file:///home/contrabanda/continuidad/audios/lalinternadediogenes/lalinternadediogenes.mp3
+Podcast-LaCasaIncendiada		File		file:///home/contrabanda/continuidad/audios/lacasaincendiada/lacasaincendiada.mp3
+Podcast-CiutatPodrida			File		file:///home/contrabanda/continuidad/audios/ciutatpodrida/ciutatpodrida.mp3
+Podcast-Tecnoparanoids			File		file:///home/contrabanda/continuidad/audios/tecnoparanoids/tecnoparanoids.mp3
+
+
+#Musica aleatoria
+Rock                            	Random          /home/contrabanda/continuidad/audios/musica/rock
+Punk                            	Random          /home/contrabanda/continuidad/audios/musica/punk
+Ska-Reggae                      	Random          /home/contrabanda/continuidad/audios/musica/ska-reggae
+MusicaContinuidad			Random		/home/contrabanda/continuidad/audios/musica/musica-continuidad
+
+
+#Falcas
+FalcaEntreBloques              Randomfile      /home/contrabanda/continuidad/audios/falcas

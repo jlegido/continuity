@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block js %}
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"> 
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<script>
+$(document).ready(function() {
+    //$('.datepicker').datepicker();
+    $(".datepicker" ).datepicker({
+        dateFormat: "dd/mm/yy"
+    });
+});
+</script>
+
+{% endblock %}
+
+{% block content %} 
+
+<p><b>Properes emissions:</b></p>
+
+{% if broadcast_list|length > 0 %}
+	{% for broadcast in broadcast_list %}
+		<p>{{ broadcast }}</p>
+	{% endfor %}
+{% else %}
+	<p>Cap</p>
+{% endif %}
+
+<hr>
+
+{# https://docs.djangoproject.com/en/1.8/topics/http/urls/#reverse-resolution-of-urls #}
+<form action="{% url 'upload_broadcast.views.upload_broadcast_form' %}" enctype="multipart/form-data" method="post">
+{% csrf_token %}
+	<p>
+        {{ form.broadcast_date.errors }}
+        {{ form.broadcast_date.label }}
+        {{ form.broadcast_date }}
+	<p>
+
+	<p>
+        {{ form.audio_file.errors }}
+        {{ form.audio_file.label }}
+        {{ form.audio_file}}
+	<p>
+
+	<input type="submit" value="OK">
+</form>
+
+<hr>
+
+{% ifequal result.0 0 %}
+	<p>{{ result.1 }}</p>
+{% else %}
+	<div style="color:red"><p>{{ result.1 }}</p></div>
+{% endifequal %}
+
+{% endblock %}

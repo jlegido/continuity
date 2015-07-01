@@ -1,0 +1,40 @@
+File layout:
+
+.
+├── continuity
+│   ├── aras
+│   │   ├── aras.block
+│   │   ├── aras.py
+│   │   ├── __init__.py
+│   ├── continuity
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   ├── db.sqlite3
+│   ├── files
+│   ├── manage.py
+│   └── upload_broadcast
+│       ├── admin.py
+│       ├── forms.py
+│       ├── __init__.py
+│       ├── migrations
+│       │   ├── __init__.py
+│       ├── models.py
+│       ├── templates
+│       │   ├── base.html
+│       │   ├── registration
+│       │   │   └── login.html
+│       │   └── upload_broadcast_form.html
+│       ├── tests.py
+│       ├── urls.py
+│       ├── views.py
+└── static
+
+1. Create static dir
+
+TODO
+
+-Document collect static files
+-Document generate root password
+
