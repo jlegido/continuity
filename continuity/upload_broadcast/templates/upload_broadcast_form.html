@@ -18,6 +18,9 @@ $(document).ready(function() {
 
 {% block content %} 
 
+{# https://docs.djangoproject.com/en/1.8/topics/http/urls/#reverse-resolution-of-urls #}
+<div align="right"><a href="{% url 'upload_broadcast.views.logout' %}">Logout</a></div>
+
 <p><b>Properes emissions:</b></p>
 
 {% if broadcast_list|length > 0 %}

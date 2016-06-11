@@ -81,7 +81,6 @@ DATABASES = {
     }
 }
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
@@ -99,7 +98,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/srv/www/docroot/static/'
+STATIC_ROOT = '/srv/www/continuity/static/'
 SESSION_ENGINE = 'django.contrib.sessions.backends.file'
 
 # Custom settings below
@@ -116,3 +115,11 @@ ARAS_CONF = {
                            'ogg' : ('Ogg', ),
              },
 }
+
+# https://docs.djangoproject.com/en/1.8/topics/email/
+EMAIL_HOST = 'smtp.example.com'
+EMAIL_HOST_USER = 'user@example.com'
+EMAIL_HOST_PASSWORD = 'secret'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+

@@ -3,7 +3,7 @@
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from forms import UploadBroadcastForm
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
 from django.conf import settings
 #from aras import aras
@@ -54,3 +54,7 @@ def upload_broadcast_form(request):
     d['broadcast_list'] = aras.get_broadcasts()
     return render_to_response('upload_broadcast_form.html',d,\
            context_instance=RequestContext(request))
+
+def logout(request):
+    return redirect('/login/')
+    #return HttpResponse("Hello, world!")
